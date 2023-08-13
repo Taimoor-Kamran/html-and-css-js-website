@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <Link rel="stylesheet" href="index.css"></Link>
+    <script src="https://kit.fontawesome.com/54827410f3.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="images/images.png" class="Logo"/>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+               <li><a href="#services">Serivices</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Desinger</p>
+            <h1>Hi, I'm <span>Taimoor</span><br/> from <span>Pakistan</span> </h1>
+        </div>
+    </div>
+    </div>
+    <!-- -------------about----------- -->
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/066d8164-c242-4dcc-bdc4-913c7b235859.jpg" />
+                </div>
+                <div class="about-col-2">
+                     <h1 class="sub-title">About me</h1>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicin jfoewihl nj oieljsmv k hljenglgj wg g elit. Soluta explicabo iure
+                         at hakesf nah niek  jjepolkjgs osltejgmpors;jdg rjptpoculpa suscipit dolor maxime blanditiis quasi! Ui i be h nok
+                        lwshdgn 3jfeljg jl jstflt culpa rem molestiae iste sed quicbsk bhb kja,biel jtskfnl.jrfdmlxtj.fmgrlsjdg okl lj wsj
+                         os magnam reprehenderit voluptas cumque hic!fl ke</p>
+                           <div class="tab-titles">
+
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                           </div>
+                           <div class="tab-contents active-tab" id="skills">
+                            <ul> 
+                                <li><span>UI/UX</span><br>Desinger Web/App interfaces</li>
+                                <li><span>Web Development</span><br> Web/App Development </li>
+                                <li><span>App Development</span><br>building Android / IOS Apps</li>
+                            </ul>
+                           </div>
+                           <div class="tab-contents" id="experience">
+                            <ul> 
+                                <li><span>2021 - current</span><br>UI/UX Design Traning at PIAIC Institute</li>
+                                <li><span>2018 - 2019 </span><br>Team Lead at PIAIC LTD </li>
+                                <li><span>2017 - 2019</span><br>UI/UX Design Excecute at digital coin limited</li>
+                                <li><span>2016 - 2017</span>Intership at akart eCommerce.</li>
+
+                            </ul>
+                           </div>
+                           <div class="tab-contents" id="education">
+                            <ul> 
+                                <li><span>2016</span><br>UI/UX Desinger traning at ET Institute</li>
+                                <li><span>2016</span><br> MBA from MIT Islamabad </li>
+                                <li><span>2014</span><br>BBA from ISM Islamabad</li>
+
+                            </ul>
+                           </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ..................Services.................. -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titles">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit. fhqw iahsn ofejsf 
+                          jworo wjfsfw, Quo eum sit neque 
+                          consectetur adipisci?</p>
+                        <a href="#">Learn More</a>
+                </div>
+
+                    <div>
+                        <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. fhqw iahsn ofejsf  jworo wjfsfw,
+                             Quo eum sit neque consectetur adipisci?</p>
+                            <a href="#">Learn More</a>
+                        </div>
+
+                        <div>
+                            <i class="fa-sharp fa-solid fa-apple-whole"></i>
+                            <h2>App Design</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. fhqw iahsn ofejsf  jworo wjfsfw,
+                                 Quo eum sit neque consectetur adipisci?</p>
+                                <a href="#">Learn More</a>
+                            </div>
+            
+            </div>
+        </div>
+    </div>
+
+<!-- ..............Portfolio.................. -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/images (4) - Copy.jpg"/>
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app concents yo you the talented people around the world.
+                            download it play store.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="work">
+                    <img src="images/images (4) - Copy.jpg"/>
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app concents yo you the talented people around the world.
+                            download it play store.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+
+
+                <div class="work">
+                    <img src="images/images (4) - Copy.jpg"/>
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app concents yo you the talented people around the world.
+                            download it play store.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------Contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>Contact@muhammadtaimoor2006@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>03413739780</p>
+                <div class="social-icons">
+                <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="'submit-to-google-sheet'">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form> 
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Iconic. Made with <i class="fa-sharp fa-solid fa-heart"></i> by piaic </p>
+    </div>
+</div>
+
+<script>
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzyytbmnF3jHZU9nsR8Uml83yLt7u9_YmCIXnEhpH1Utd8KpoQo0FVJNcc9yTR3_0k/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML = "Message are sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000 )
+        form.reset();
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+
+
+</script>
+    
+</body>
+</html>
